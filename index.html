@@ -279,6 +279,73 @@
           </div>
         </div>
       </section>
+
+      <section id="faq" class="section alt">
+        <div class="container faq-wrap">
+          <div class="section-heading faq-heading">
+            <p class="eyebrow">Frequently asked questions</p>
+            <h2>Everything you need to know before you launch.</h2>
+          </div>
+
+          <div class="faq-list" aria-label="Frequently asked questions">
+            <div class="faq-item active">
+              <button class="faq-question" type="button" aria-expanded="true">
+                How fast can we get started?
+                <span class="faq-icon">−</span>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Most teams launch in under a week. NovaFlow includes guided
+                  onboarding, templates, and migration support so your workflows
+                  can go live quickly.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                Is it easy to migrate from our current tools?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Yes. You can import tasks, historical updates, and basic team
+                  data from spreadsheets and common project tools with a guided
+                  setup flow.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                Can we customize permissions and workflows?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Absolutely. Create custom roles, assign access by team, and
+                  tailor automations to match your operating model without extra
+                  complexity.
+                </p>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" type="button" aria-expanded="false">
+                Do you offer support for growing teams?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <p>
+                  Every plan includes onboarding guidance, and higher tiers get
+                  priority support, dedicated success reviews, and hands-on help
+                  scaling your usage.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer id="contact" class="site-footer">
@@ -290,6 +357,46 @@
         <a href="mailto:hello@novaflow.io" class="btn btn-primary"
           >Book a demo</a
         >
+      </div>
+
+      <div class="container contact-form-wrap">
+        <form class="lead-form" id="leadForm" novalidate>
+          <div class="form-field">
+            <label for="name">Full name</label>
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Jordan Smith"
+              required
+            />
+          </div>
+
+          <div class="form-field">
+            <label for="email">Work email</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="jordan@company.com"
+              required
+            />
+          </div>
+
+          <div class="form-field form-field-wide">
+            <label for="company">Company</label>
+            <input
+              id="company"
+              name="company"
+              type="text"
+              placeholder="Northstar Labs"
+              required
+            />
+          </div>
+
+          <button type="submit" class="btn btn-primary">Request a demo</button>
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+        </form>
       </div>
 
       <div class="container footer-bottom">
